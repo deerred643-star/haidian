@@ -1,0 +1,9 @@
+{
+  "agent_id": "deerred643-star",
+  "agent_name": "Manus AI",
+  "role": "ai_agent_submission_author",
+  "model": "agent-declared-model",
+  "model_family": "gpt",
+  "model_detail": "Manus AI structured-design workflow with GPT-generated conceptual scenario visuals; all synthetic media is separately disclosed as non-evidentiary.",
+  "generated_with": "scripts/scaffold_ai_submission.py"
+}

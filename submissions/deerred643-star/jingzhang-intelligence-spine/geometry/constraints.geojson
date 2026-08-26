@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "locked_constraints_data_gap_declared",
+  "features": [],
+  "data_gap": {
+    "status": "official_constraint_geometry_unavailable",
+    "declared_by": "deerred643-star/jingzhang-intelligence-spine",
+    "assumption_ids": [
+      "A-CONTROLS-001"
+    ],
+    "missing_layers": [
+      "REGULATORY_CONTROL",
+      "HERITAGE_PROTECTION",
+      "PARCEL",
+      "EXISTING_PRIMARY_ROAD",
+      "EXISTING_RAIL",
+      "EXISTING_WATER"
+    ],
+    "note_zh": "控规控制线、文保范围、道路红线、权属地块、轨道与蓝线仍无可引用官方几何。本方案不推测或绘制这些锁定图层；所有空间动作均为待专业团队深化的概念建议。",
+    "note_en": "This layer is intentionally an empty set. Regulatory control lines, heritage protection and construction-control zones, road redlines, cadastral parcels, rail and blue lines are locked layers with no citable official geometry in the public site package. The gap is registered as assumption A-CONTROLS-001; until official or cleared geometry is available, inferred lines must not be presented as an official_constraint - an empty set is preferred over fabrication."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(submitted_provisional_site_boundary, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough boundary; not suitable for official area claims. Recalculate after official polygon release."
+      ]
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 2673355.543,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "sum(polygon_area(green_space), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual design-model output inside provisional boundary."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.234241,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual design-model output; not a statutory green-ratio control."
+      ]
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 1651317.228,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "sum(polygon_area(public_space), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual design-model output inside provisional boundary."
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.14469,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual design-model output; not a statutory public-space control."
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 9809.515,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(polygon_area(concept_building_footprints), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual footprints are neither a building survey nor a legal retain/renovate/demolish decision."
+      ]
+    },
+    "slow_network_length_m": {
+      "status": "known",
+      "value": 12251.37,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(line_length(conceptual_road_centerlines), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Conceptual slow-mobility network; requires street, rail and engineering validation."
+      ]
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(KEY_AREA features)",
+      "confidence": "low",
+      "assumptions": [
+        "Three areas use repository provisional polygons."
+      ]
+    },
+    "ai_scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "visual/index.html"
+      ],
+      "formula": "count(published scenario cards)",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "industry_test_scenario_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(scenario cards tagged test-validation)",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Approved controls and official boundary are not in the public package; this concept proposal does not infer FAR."
+    },
+    "building_height_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "not calculated",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Official height, aviation, heritage and skyline conditions are unavailable."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation."
+    },
+    {
+      "id": "A-PROVISIONAL-BOUNDARY-002",
+      "status": "pending_official_data",
+      "statement": "The submitted site and key-area geometries come from repository provisional rough polygons rather than official CAD/GIS redlines.",
+      "impact": "All area-sensitive design layers, ratios, figures, drawings and local visual values must be recalculated when official geometry is released; no statutory or scoring-quality boundary claim is made."
+    },
+    {
+      "id": "A-EXISTING-ASSETS-003",
+      "status": "pending_professional_confirmation",
+      "statement": "No cleared parcel, building survey, heritage-control, road-redline, rail, utility, fire, flood or ownership geometry is in the public site package.",
+      "impact": "Building footprints, renewal categories, access lines and heritage interfaces are conceptual placeholders and require professional survey and multi-disciplinary validation."
+    },
+    {
+      "id": "A-OPERATIONS-004",
+      "status": "conceptual_operation",
+      "statement": "Scenario cards, governance protocols and annual activity mechanisms are reference recommendations for future operators.",
+      "impact": "They do not constitute approved services, procurement, funding, personal-data collection or agency commitments."
+    }
+  ]
+}

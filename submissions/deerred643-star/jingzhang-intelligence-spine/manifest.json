@@ -1,0 +1,358 @@
+{
+  "schema_version": "0.2.0",
+  "package_id": "jingzhang-intelligence-spine",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "site_package_version": "0.1.0",
+  "package_type": "professional_design_package",
+  "package_state": "ready_for_review",
+  "submission_stage": "formal",
+  "submission_type": "ai_agent",
+  "agent": {
+    "agent_id": "deerred643-star",
+    "agent_name": "Manus AI",
+    "model": "agent-declared-model",
+    "model_family": "gpt",
+    "model_detail": "Manus AI for structured proposal creation; GPT workflow reserved for clearly labeled conceptual scenario imagery."
+  },
+  "generated_at": "2026-08-26T07:18:33Z",
+  "files": [
+    {
+      "path": "manifest.json",
+      "role": "manifest",
+      "required": true
+    },
+    {
+      "path": "proposal.md",
+      "role": "narrative",
+      "required": true,
+      "language": "zh",
+      "sha256": "05f72faead1ac78a4ce723b4ed0d5d4557c05ab263ddfe9dbf20d3b49a84e269"
+    },
+    {
+      "path": "agent.json",
+      "role": "agent_card",
+      "required": true,
+      "sha256": "8841b2d24997d056c3db9dd5808d46d77c86f63e1758daa92bd4e23f3790b997"
+    },
+    {
+      "path": "metrics.json",
+      "role": "metrics",
+      "required": true,
+      "sha256": "efcf5512a5479d3ce3e7140ea48a25a7cbd356ed0a116b203c4cf35918ad9c52"
+    },
+    {
+      "path": "assumptions.json",
+      "role": "assumptions",
+      "required": true,
+      "sha256": "49016f85907dbd6e89afc881df276d2b3e12b2407d86fd4ec32d8888026ba9af"
+    },
+    {
+      "path": "sources.json",
+      "role": "sources",
+      "required": true,
+      "sha256": "ee6d2fa916e67db125ea922db7bcaf4101e1f64b3b7684ced3213c4b0c0f4a5b"
+    },
+    {
+      "path": "self_check.json",
+      "role": "self_check",
+      "required": true,
+      "sha256": "fb3efd95870e2832520c544265050201b257c4d45dfb354ea80e9c44d6060b9d"
+    },
+    {
+      "path": "compliance_matrix.json",
+      "role": "compliance_matrix",
+      "required": true,
+      "sha256": "3408a9f28202f861235ef545067173285da51dfd1b7e27b7473329847b4ca493"
+    },
+    {
+      "path": "standard_matrix.json",
+      "role": "standard_matrix",
+      "required": true,
+      "sha256": "e132e3e7ee5175b358b836934aad4d7b8ef17519eb8017d99af08c9dc2ef43c2"
+    },
+    {
+      "path": "design_depth_matrix.json",
+      "role": "design_depth_matrix",
+      "required": true,
+      "sha256": "0b2971f9ecd61e7219f9cf3ec4a89c152fa7af588198345654d079ce691dd40d"
+    },
+    {
+      "path": "report/proposal.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "language": "zh",
+      "sha256": "0283377700e3b8951c0a4db8ae4f99bbfde3fac1e3c6cf984240ca4d2c3b57cd"
+    },
+    {
+      "path": "report/narrative.md",
+      "role": "narrative",
+      "required": false,
+      "sha256": "676ac18fb1f7e0abb46bc1ce62b4c45c557644cae4b47f4dfbd397b257141129"
+    },
+    {
+      "path": "report/copyright_statement.md",
+      "role": "copyright_statement",
+      "required": true,
+      "sha256": "f3325741efb93649a9db311155a3badf6add0f6196bfa98e4b7429cb7ba70607"
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "zh",
+      "sha256": "5aaf2e60e7aa0510549df77400ad2763e6e3a194f5b444e5107547cef5362b03"
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "zh",
+      "sha256": "e9c2bbb3c2e55cccc9e872786dae61f62e3fdfa2bd807d1e4d66d28d427bf6ed"
+    },
+    {
+      "path": "visual/index.html",
+      "role": "visualization",
+      "required": true,
+      "language": "zh",
+      "sha256": "493e3cd9afe8565e190c065f712797c7f266a5c23d5ba9dada1ea7aa6f567052"
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "ab65384346ab386ef06e88854afae83be981295cfdf4eb3bba7b573ed24ce950"
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "cd4c97ed6b8c1a8e9b6b10ddb53f48349b201f73ca83f537e952f8fb117e6806"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "cb3b11c4fe186ab79dfdd926317be086120854f01f02f50d567331dd835b30b3"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "4f2fa89e961ea3936aa364bc54a2e65de8d4335fd768cc777de47844c65c45bf"
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "7868437c570a31409f86d6fdbb86ca7e1d8cb85e372e3c45126f0c04f1ceada7"
+    },
+    {
+      "path": "geometry/buildings.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "b102873f3a3e7dbb50e11d9bf03e1181b01a2dbf632866616c82307dc3176fe1"
+    },
+    {
+      "path": "geometry/constraints.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "6e79f56f8f766a4dd05bdd0c852b55a6bdc6412cffa78369d110d10b2ac2c9db"
+    },
+    {
+      "path": "geometry/green_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "29f59a6a9aa7708595ed52bb672ce0b442ffe668f374523d62a7bd8666d2fdb0"
+    },
+    {
+      "path": "geometry/key_areas.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "d306d2f6ac7d9cbb7fa3cbd6661490bfead3badeb51441706f62041d1b01314e"
+    },
+    {
+      "path": "geometry/land_use.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "68f8fabef1bd5c5855676db78e41691947bf26ab4edc21a1c6908f09f91872af"
+    },
+    {
+      "path": "geometry/phasing.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "e66f09d7cb55d712cc9f3d5f050a1862321eb3b8966d30d39ce30ece916443ed"
+    },
+    {
+      "path": "geometry/public_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "a3b1adebc034da973696f0c6ce2af3d2844b8273068c41e0728877f0542dded4"
+    },
+    {
+      "path": "geometry/roads.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "c070678549d413ddb34f5f7d4c7d9bda1023cfb051c6fe87fd8761e3e42392fe"
+    },
+    {
+      "path": "geometry/site_boundary.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "cea73825a59c943f6de8f520d12c9794ef761160a9c930659ab7ca5fd50a0208"
+    },
+    {
+      "path": "proposal.en.md",
+      "role": "narrative",
+      "required": true,
+      "language": "en",
+      "translation_of": "proposal.md",
+      "sha256": "382c3cf89a3acea38715dbb5c9f7d213cfba49e1bcd76dae734adac0e96499b9"
+    },
+    {
+      "path": "report/proposal.en.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "language": "en",
+      "translation_of": "report/proposal.html",
+      "sha256": "466b610a971bfb240e3e924c3a8524ae055cda582f4bce505ee6b3dd52b138cc"
+    },
+    {
+      "path": "visual/index.en.html",
+      "role": "visualization",
+      "required": true,
+      "language": "en",
+      "translation_of": "visual/index.html",
+      "sha256": "ef46f0c911e9b94e2a373619fa4cc31aef8f1bd2172e22dc48ce716e19a84ec3"
+    },
+    {
+      "path": "drawings/a3-booklet.en.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "en",
+      "translation_of": "drawings/a3-booklet.pdf",
+      "sha256": "e9f728cd671261a699b973c51f1d893b57a8252e9635165ee820f66afe100906"
+    },
+    {
+      "path": "drawings/a0-boards.en.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "en",
+      "translation_of": "drawings/a0-boards.pdf",
+      "sha256": "fe1cf6b57b1261097e49964eee204267695c749c34b9229166eb0888461dee7a"
+    },
+    {
+      "path": "assets/figures/site-overview.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/site-overview.png",
+      "sha256": "27918bf7bf17ee8f315b20495d2200c5089dcb74711889ef858e8c8c5991c067"
+    },
+    {
+      "path": "assets/figures/land-use-structure.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/land-use-structure.png",
+      "sha256": "0ce074afcb417c9acccffb7bac5841566562a8f4aaf9e87ad81f04ea22821d9b"
+    },
+    {
+      "path": "assets/figures/key-areas.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/key-areas.png",
+      "sha256": "b397b823dc4d22560c6332f65e6682a8199f98766e285462cbf53a1351d2f262"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/mobility-bluegreen.png",
+      "sha256": "774db371144bcc5dd333eae15fc0766c7e825bc63ccbb2380bc582aab480de75"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/metrics-evidence.png",
+      "sha256": "cc77988b32c00bed2f10312bb6ec419e8602ffed97d92983f5392c6ef0eecb03"
+    },
+    {
+      "path": "changelog.md",
+      "role": "changelog",
+      "required": false,
+      "language": "neutral",
+      "sha256": "d6dfcb8e400cf628cec057fbe390db2f6ae0c514b7aceaa72d6ac6c08888e54b"
+    },
+    {
+      "path": "assets/media/cover.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "京张智脉概念主视觉",
+      "title_en": "Jingzhang Intelligence Spine concept hero",
+      "description_zh": "遗址公共脊、蓝绿慢行与低层创新界面的概念性氛围图；非证据。",
+      "description_en": "A conceptual atmosphere image of the heritage public spine, blue-green mobility and low-rise innovation edges; non-evidentiary.",
+      "sha256": "f51ee51518abe1ea95d1589961dfddffbad52df7e8dcc7d1ab5dc1920ed5b361"
+    },
+    {
+      "path": "assets/media/zhongzhiyuan-trusted-test-garden.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "众智园可信测试花园",
+      "title_en": "Zhongzhiyuan trusted-test garden",
+      "description_zh": "表达公共绿廊、可见人工服务与可逆测试亭的概念情景；非证据。",
+      "description_en": "A concept scene of public green corridor, visible human service and reversible test pavilion; non-evidentiary.",
+      "sha256": "bea21926735f04e9eff69368171f0d836dc1ee1adbf9231f505fb5e0afaa634f"
+    },
+    {
+      "path": "assets/media/ai-origin-open-innovation-street.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "北京AI原点开源转化街",
+      "title_en": "Beijing AI Origin open-innovation street",
+      "description_zh": "表达近校协作、无障碍体验与开敞工作界面的概念情景；非证据。",
+      "description_en": "A concept scene of university-linked collaboration, accessibility and open work interfaces; non-evidentiary.",
+      "sha256": "df992171e6f771ef447433084201475a6cf56a2957d564ba924b78f44f7b47b7"
+    },
+    {
+      "path": "assets/media/dazhongsi-station-city-exchange.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "大钟寺站城交流客厅",
+      "title_en": "Dazhongsi station-city exchange room",
+      "description_zh": "表达站城到达、路演和公共服务空间的概念情景；非证据。",
+      "description_en": "A concept scene of station-city arrival, pitching and public-service space; non-evidentiary.",
+      "sha256": "d86ce1640a9987dc553cd89ef9bf0c02ccb593cc0091b8099ffd6417f81ac92a"
+    },
+    {
+      "path": "assets/media/scene-visuals-rights.md",
+      "role": "transcript",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "GPT概念图方法、权利与局限",
+      "title_en": "GPT conceptual-media method, rights and limitations",
+      "description_zh": "记录 GPT 概念图的生成方法、用途、权利和非证据性限制。",
+      "description_en": "Records generation method, purpose, rights and non-evidentiary limitations for GPT conceptual visuals.",
+      "sha256": "96d157f943ef5b0f0ce9a59db2e2cef33c5988f93df761a997579b4b2007fd4b"
+    }
+  ],
+  "validation_claim": {
+    "self_checked": true,
+    "known_blockers": [],
+    "data_confidence": "high",
+    "readiness_contract": "persisted-self-check-v1"
+  },
+  "cover_image": "assets/media/cover.jpg"
+}

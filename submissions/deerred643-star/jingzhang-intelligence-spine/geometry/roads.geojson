@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_concept_mobility_network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "properties": {
+        "id": "ROAD-001",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "遗址慢行主脊",
+        "label_en": "Heritage slow-mobility spine",
+        "network_role": "conceptual slow / shared-street connection",
+        "usage_note": "Conceptual network only; not an official road redline, rail alignment or engineering design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.344,
+            39.943
+          ],
+          [
+            116.3477,
+            39.955
+          ],
+          [
+            116.35,
+            39.968
+          ],
+          [
+            116.3525,
+            39.98
+          ],
+          [
+            116.351,
+            39.995
+          ],
+          [
+            116.349,
+            40.01
+          ],
+          [
+            116.348,
+            40.023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "properties": {
+        "id": "ROAD-002",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "东西缝合支线",
+        "label_en": "East-west stitch",
+        "network_role": "conceptual slow / shared-street connection",
+        "usage_note": "Conceptual network only; not an official road redline, rail alignment or engineering design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3407,
+            39.966
+          ],
+          [
+            116.3543,
+            39.966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-003",
+      "properties": {
+        "id": "ROAD-003",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "场景联络支线",
+        "label_en": "Scenario connector",
+        "network_role": "conceptual slow / shared-street connection",
+        "usage_note": "Conceptual network only; not an official road redline, rail alignment or engineering design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3407,
+            39.99
+          ],
+          [
+            116.3533,
+            39.99
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-004",
+      "properties": {
+        "id": "ROAD-004",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "北部创新支线",
+        "label_en": "Northern innovation connector",
+        "network_role": "conceptual slow / shared-street connection",
+        "usage_note": "Conceptual network only; not an official road redline, rail alignment or engineering design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34204146341463,
+            40.013
+          ],
+          [
+            116.3543,
+            40.013
+          ]
+        ]
+      }
+    }
+  ]
+}

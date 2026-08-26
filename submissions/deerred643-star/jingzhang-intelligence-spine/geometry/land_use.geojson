@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_concept_land_use_partition",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "",
+        "label_en": "",
+        "land_use_code": "0802",
+        "name_zh": "研发与中试协作区",
+        "name_en": "Research and prototyping collaboration",
+        "color": "#2C7FB8",
+        "design_intent_zh": "概念性功能组织，须在正式控规、权属与现状调查资料到位后由专业团队深化。",
+        "area_sqm_declared": 1383456.459
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.342508,
+              39.939
+            ],
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.3417,
+              40.006
+            ],
+            [
+              116.342508,
+              40.022563999999996
+            ],
+            [
+              116.342508,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "",
+        "label_en": "",
+        "land_use_code": "1401",
+        "name_zh": "遗址公园与蓝绿交往区",
+        "name_en": "Heritage park and blue-green commons",
+        "color": "#65A30D",
+        "design_intent_zh": "概念性功能组织，须在正式控规、权属与现状调查资料到位后由专业团队深化。",
+        "area_sqm_declared": 2715239.184
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.345784,
+              39.939
+            ],
+            [
+              116.3425079999,
+              39.939
+            ],
+            [
+              116.3425079999,
+              40.02256399794996
+            ],
+            [
+              116.3427,
+              40.0265
+            ],
+            [
+              116.345784,
+              40.0265
+            ],
+            [
+              116.345784,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "",
+        "label_en": "",
+        "land_use_code": "0802",
+        "name_zh": "近校开源转化区",
+        "name_en": "University-linked open innovation",
+        "color": "#41B6C4",
+        "design_intent_zh": "概念性功能组织，须在正式控规、权属与现状调查资料到位后由专业团队深化。",
+        "area_sqm_declared": 2848271.995
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.349216,
+              39.939
+            ],
+            [
+              116.3457839999,
+              39.939
+            ],
+            [
+              116.3457839999,
+              40.0265
+            ],
+            [
+              116.349216,
+              40.0265
+            ],
+            [
+              116.349216,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "",
+        "label_en": "",
+        "land_use_code": "0702",
+        "name_zh": "社区服务与人才生活区",
+        "name_en": "Community service and talent living",
+        "color": "#E67E22",
+        "design_intent_zh": "概念性功能组织，须在正式控规、权属与现状调查资料到位后由专业团队深化。",
+        "area_sqm_declared": 2459869.441
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35218,
+              39.939
+            ],
+            [
+              116.3492159999,
+              39.939
+            ],
+            [
+              116.3492159999,
+              40.0265
+            ],
+            [
+              116.35218,
+              40.0265
+            ],
+            [
+              116.35218,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "label_zh": "",
+        "label_en": "",
+        "land_use_code": "0901",
+        "name_zh": "站城商业与国际交流区",
+        "name_en": "Station-city commerce and exchange",
+        "color": "#7E57C2",
+        "design_intent_zh": "概念性功能组织，须在正式控规、权属与现状调查资料到位后由专业团队深化。",
+        "area_sqm_declared": 2005992.24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3521799999,
+              40.0265
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3521799999,
+              39.939
+            ],
+            [
+              116.3521799999,
+              40.0265
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "topology_note": "All polygons derive from one common provisional boundary and adjacent shared cut lines."
+}
